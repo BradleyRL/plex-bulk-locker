@@ -373,7 +373,7 @@ Ejemplos de uso:
     bibliotecas = seleccionar_biblioteca(plex, biblioteca_nombre=args.library)
 
     # 4. Selección de Campos
-    campos = seleccionar_campos(campos_cli=args.fields, todos_campos=args.all-fields)
+    campos = seleccionar_campos(campos_cli=args.fields, todos_campos=args.all_fields)
 
     # 5. Ejecución
     ejecutar_bloqueo_masivo(
